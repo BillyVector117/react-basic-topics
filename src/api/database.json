@@ -1,0 +1,39 @@
+{
+  "characters": [
+    {
+      "id": 1,
+      "name": "Jill",
+      "team": "STARTS"
+    },
+    {
+      "id": 2,
+      "name": "Chris",
+      "team": "STARS"
+    },
+    {
+      "id": 3,
+      "name": "Albert",
+      "team": "STARS"
+    },
+    {
+      "id": 4,
+      "name": "Nicholai",
+      "team": "UBCS(1)"
+    },
+    {
+      "id": 5,
+      "name": "Vector",
+      "team": "USS"
+    },
+    {
+      "id": 1623261713901,
+      "name": "Barry",
+      "team": "STARS"
+    },
+    {
+      "name": "Billy",
+      "team": "STARTS",
+      "id": 1623261713902
+    }
+  ]
+}

@@ -3,10 +3,16 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { HashRouter } from 'react-router-dom'; // Or BrowserRouter
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+   
+    <HashRouter>
+      {/* <HashRouter basename='billy'> prefix */}
+      <App />
+    </HashRouter>
+
   </React.StrictMode>,
   document.getElementById('root')
 );
