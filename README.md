@@ -1,3 +1,19 @@
+#reactjs #styled-components #material-ui
+Several simple applications to review basic React topics.
+Modules: Clock, contact form, crud (offline), crud (API-simulation), Modals, Portals, Nested Selects, Song browser, validations.
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
