@@ -54,6 +54,9 @@ function NavBar() {
                     <Link className={classes.customLink} to="/modals" >
                         <Button color="inherit">Modals</Button>
                     </Link>
+                    <Link className={classes.customLink} to="/crudapireducer" >
+                        <Button color="inherit">Crud-API-Reducer</Button>
+                    </Link>
                     <Link className={classes.customLink} to="/crudapi" >
                         <Button color="inherit">Crud-API</Button>
                     </Link>

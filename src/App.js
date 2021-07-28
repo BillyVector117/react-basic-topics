@@ -11,14 +11,13 @@ import NavBar from './elements/NavBar';
 import { Route, Switch } from 'react-router';
 import Greetings from './Components/Greetings';
 import Error from './Components/Error';
-
+import CrudApiReducer from "./Components/CrudApiReducer"
 function App() {
 
   return (
     <div className="App">
       <NavBar />
       <header className="App-header">
-
         <Switch>
           <Route path="/crud" >
             <Crud />
@@ -46,14 +45,16 @@ function App() {
           </Route>
           <Route path="/clock" >
             <Clock />
-
+          </Route>
+          <Route path="/crudapireducer" >
+            <CrudApiReducer />
           </Route>
           <Route exact path="/" >
             <Greetings />
 
           </Route>
           <Route path="*" component={Error} />
-            
+
         </Switch>
       </header>
     </div>
